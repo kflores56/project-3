@@ -1,8 +1,8 @@
 # Project-3
 
-[![GitHub contributors](https://img.shields.io/github/contributors/kflores56/project_3?logo=Github&style=for-the-badge)](https://github.com/kflores56/project_3/graphs/contributors)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kflores56/project_3?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/kflores56/project_3?style=for-the-badge)
+[![GitHub contributors](https://img.shields.io/github/contributors/kflores56/project-3?logo=Github&style=for-the-badge)](https://github.com/kflores56/project_3/graphs/contributors)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kflores56/project-3?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/kflores56/project-3?style=for-the-badge)
 
 # Project Name
 > Outline a brief description of your project.

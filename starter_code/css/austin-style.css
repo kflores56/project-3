@@ -576,7 +576,7 @@ border-top-color: #333f48; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 
 @media only screen and (max-width: 800px) {
   .cd-bg-video-wrapper { 
-  	background: url('../video/austin_covid.mp4') #000 no-repeat center center fixed; 
+  	background: url('./starter_code/video/austin_covid.mp4') #000 no-repeat center center fixed; 
   	background-size: cover;
   }
   .cd-bg-video-wrapper video { display: none; }
@@ -585,7 +585,7 @@ border-top-color: #333f48; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
      /* IE10+ CSS styles go here */
      .cd-bg-video-wrapper { 
-	  	background: url('../video/austin_covid.mp4') #000 no-repeat center center scroll; 
+	  	background: url('./starter_code/video/austin_covid.mp4') #000 no-repeat center center scroll; 
 	  	background-size: cover;
 	  }
 	  .cd-bg-video-wrapper video { display: none; }

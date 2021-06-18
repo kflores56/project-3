@@ -11,6 +11,9 @@ with open(f'xgb_model.pickle', "rb") as f:
     model = pickle.load(f)
 
 feature_names = model.feature_names
+print("----Feature----")
+print(feature_names)
+print("--------")
 
 # Route to render index.html template using data from Mongo
 @app.route("/", methods=["GET", "POST"])
@@ -25,6 +28,9 @@ def home():
 
         # data must be converted to df with matching feature names before predict
         data = pd.DataFrame(np.array([[bedroom, bathroom, sqft, yearBuilt]]), columns=feature_names)
+        print("---Data---")
+        print(data)
+        print("------")
         result = model.predict(data)
         if result == 1:
             output_message = "A home in Austin, TX will cost you XXX"

@@ -6,13 +6,14 @@
 
 # Project Name
 > This tool allows users to calculate how much their dream home in Austin, TX might cost.  
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+>
+> You can access our website [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Data](#data)
-* [Screenshots](#screenshots)
+* [Machine Learning](#machine-learning)
 * [Setup](#setup)
 * [Usage](#usage)
 * [Project Status](#project-status)
@@ -35,11 +36,20 @@
 
 
 ## Data
-> We found a [dataset from Kaggle](https://www.kaggle.com/ericpierce/austinhousingprices) that contained 2021 housing data from Austin. The data inclued over 45 features which provided our team a solid foundation for data analysis around 
+> We found a [dataset from Kaggle](https://www.kaggle.com/ericpierce/austinhousingprices) that contained 2021 housing data from Austin. The data inclued over 45 features which provided our team a solid foundation for data analysis around housing information in Austin. 
+>
+> For the initial analysis of our data, we create several plots for variables we were curious to learn more about which can be seen below:
+
+![histogram_plots](./images/feature_histogram_plots.png)
+
+> We also created some initial renderings of our property's location using latitude and longitude and the location correlated with the price. 
+
+![lat_long_plot](./images/lat_long_plot.png)
+![price_lat_long_plot](./images/price_lat_long_plot.png)
 
 
-## Screenshots
-![Example screenshot](./imges/feature_histogram_plots.png)
+## Machine Learning
+![Example screenshot](./images/feature_histogram_plots.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 

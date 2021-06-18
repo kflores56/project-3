@@ -5,13 +5,13 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/kflores56/project-3?style=for-the-badge)
 
 # Project Name
-> Outline a brief description of your project.
+> This tool allows users to calculate how much their dream home in Austin, TX might cost.  
 > Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
-* [Features](#features)
+* [Data](#data)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
 * [Usage](#usage)
@@ -22,28 +22,24 @@
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+> The City of Austin recently conducted  a [study](https://austintexas.gov/sites/default/files/files/Housing/Austin%20HMA_final.pdf) with Root Policy Research which noted that Austin's median home value rose 55% from 2010. While Austin is considered affordable when compared with cities in California or the Pacific Northwest, a 55% increase in house price is notable. Our aim was to create a tool that would allow potential homebuyers to better understand the cost of a home in Austin depending on the size of home that best suits their needs. 
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- Python Pandas 
+- HTML/CSS/Bootstrap/Seaborn
+- Tableau
+- Machine Learning 
+- Scikit-Learn
+- Joblib
 
 
-## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+## Data
+> We found a [dataset from Kaggle](https://www.kaggle.com/ericpierce/austinhousingprices) that contained 2021 housing data from Austin. The data inclued over 45 features which provided our team a solid foundation for data analysis around 
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./imges/feature_histogram_plots.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 

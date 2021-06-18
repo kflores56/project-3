@@ -15,7 +15,7 @@ print("----Feature----")
 print(feature_names)
 print("--------")
 
-# Route to render index.html template using data from Mongo
+# Route to render index.html template
 @app.route("/", methods=["GET", "POST"])
 def home():
     output_message = ""

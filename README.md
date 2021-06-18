@@ -5,7 +5,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/kflores56/project-3?style=for-the-badge)
 
 # Project Name
-> This tool allows users to calculate how much their dream home in Austin, TX might cost.  
+> This tool allows users to calculate how much their dream home in Austin, TX might cost based on number of bedrooms, bathrooms, total square footage, and year of the home.  
 >
 > You can access our website [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
@@ -14,11 +14,8 @@
 * [Technologies Used](#technologies-used)
 * [Data](#data)
 * [Machine Learning](#machine-learning)
-* [Setup](#setup)
-* [Usage](#usage)
+* [Webpage](#webpage)
 * [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
 <!-- * [License](#license) -->
 
 
@@ -47,14 +44,14 @@
 ![lat_long_plot](./images/lat_long_plot.png)
 ![price_lat_long_plot](./images/price_lat_long_plot.png)
 
-In addition, we created a correlation matrix to determine which variables have the highest correlation to sale price so we could use those to create our machine learning model. 
+> In addition, we created a correlation matrix to determine which variables have the highest correlation to sale price so we could use those to create our machine learning model. 
 
 ![heatmap](./images/heatmap.png)
 
 
 ## Machine Learning
 
-For our machine learning code we utilized a simple linear regression. 
+For our machine learning code, we utilized a simple linear regression with the train, test, split model. 
 
 `model.fit(X_train, y_train)`
 `training_score = model.score(X_train, y_train)`
@@ -64,38 +61,24 @@ While a linear regression is the best model for this type of question our outcom
 
 ![residual_plot](./images/residual_plot.png)
 
-## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+## Webpage
+To compile all our work, we created a web interface with pages as described and shown below:
+> A landing page with an overview of Austin.
+![landing_page](./images/landing_page.png)
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
+> A machine learning page where users can predict what they will pay for a home depending on the features they choose. 
+![machineLearning](./images/machineLearning.png)
 
+> A map with all the locations of properties within our dataset and a pop up that includes the address, number of bedrooms, bathrooms, and square footage. 
+![map](./images/map.png)
 
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
+> A dashboard with basic data analysis for the noted variables. 
+![dashboard](./images/dashboard.png)
 
-`write-your-code-here`
+> A gallery with a variety of homes in Austin for buyers better understand the style of homes in Austin.
+![gallery](./images/gallery.png)
 
 
 ## Project Status
 Project is: _in progress_ 
-
-
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
-
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
 

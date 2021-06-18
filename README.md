@@ -47,11 +47,22 @@
 ![lat_long_plot](./images/lat_long_plot.png)
 ![price_lat_long_plot](./images/price_lat_long_plot.png)
 
+In addition, we created a correlation matrix to determine which variables have the highest correlation to sale price so we could use those to create our machine learning model. 
+
+![heatmap](./images/heatmap.png)
+
 
 ## Machine Learning
 
 For our machine learning code we utilized a simple linear regression. 
 
+`model.fit(X_train, y_train)`
+`training_score = model.score(X_train, y_train)`
+`testing_score = model.score(X_test, y_test)`
+
+While a linear regression is the best model for this type of question our outcomes were not ideal. Our training score was 0.361 and our test score was 0.297. 
+
+![residual_plot](./images/residual_plot.png)
 
 ## Setup
 What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
@@ -67,7 +78,7 @@ Provide various use cases and code examples here.
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Project is: _in progress_ 
 
 
 ## Room for Improvement

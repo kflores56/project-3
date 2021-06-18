@@ -62,20 +62,20 @@ While a linear regression is the best model for this type of question our outcom
 ![residual_plot](./images/residual_plot.png)
 
 ## Webpage
-To compile all our work, we created a web interface with pages as described and shown below:
-> A landing page with an overview of Austin.
+> To compile all our work, we created a web interface with pages as described and shown below:
+#### A landing page with an overview of Austin.
 ![landing_page](./images/landing_page.png)
 
-> A machine learning page where users can predict what they will pay for a home depending on the features they choose. 
+#### A machine learning page where users can predict what they will pay for a home depending on the features they choose. 
 ![machineLearning](./images/machineLearning.png)
 
-> A map with all the locations of properties within our dataset and a pop up that includes the address, number of bedrooms, bathrooms, and square footage. 
+#### A map with all the locations of properties within our dataset and a pop up that includes the address, number of bedrooms, bathrooms, and square footage. 
 ![map](./images/map.png)
 
-> A dashboard with basic data analysis for the noted variables. 
+#### A dashboard with basic data analysis for the noted variables. 
 ![dashboard](./images/dashboard.png)
 
-> A gallery with a variety of homes in Austin for buyers better understand the style of homes in Austin.
+#### A gallery with a variety of homes in Austin for buyers better understand the style of homes in Austin.
 ![gallery](./images/gallery.png)
 
 

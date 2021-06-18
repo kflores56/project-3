@@ -49,8 +49,8 @@
 
 
 ## Machine Learning
-![Example screenshot](./images/feature_histogram_plots.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+
+For our machine learning code we utilized a simple linear regression. 
 
 
 ## Setup

@@ -1,7 +1,7 @@
 from flask import Flask, render_template, redirect, request
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
-from http.server import HTTPServer
+# from http.server import HTTPServer
 import pandas as pd
 import numpy as np
 # import pickle
@@ -28,8 +28,12 @@ app = Flask(__name__)
 # print("--------")
 
 # Route to render index.html template
+# @app.route("/")
+# def home():
+#     return render_template('index.html')
+
 @app.route("/", methods=["GET", "POST"])
-def home():
+def index():
     # output_message = ""
 
     if request.method == "POST":
@@ -40,16 +44,20 @@ def home():
 
         # data must be converted to df with matching feature names before predict
         data = pd.DataFrame(np.array([[bedroom, bathroom, sqft, yearBuilt]]))
+
         print("---Data---")
         print(data)
         print("------")
         result = model.predict(data)
-        # if result == 1:
-        #     output_message = "A home in Austin, TX will cost you"
-        # else:
-        #     output_message = "A home in Austin, TX will cost you XXX2"
+        if result > 0:
+            output_message = "A home in Austin, TX will cost you"
+        else:
+            output_message = "A home in Austin, TX will cost you XXX2"
+    else:
+        output_message = 'Try Again'
     
-    return render_template("index.html", message = {result})
+    return output_message
+    # return render_template("index.html")
 
 if __name__ == "__main__":
     app.run(debug=True)

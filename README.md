@@ -7,7 +7,7 @@
 # Project Name
 > This tool allows users to calculate how much their dream home in Austin, TX might cost based on number of bedrooms, bathrooms, total square footage, and year of the home.  
 >
-> You can access our website [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+> You can access our website [_here_](https://kflores56.github.io/project-3/). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [General Info](#general-information)
